@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400;1,900&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 634px;
+}
+button {
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  padding: 20px 43px;
+  gap: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 1s;
+}
+button:hover {
+  background-color: #9dd809;
+}
+/* header style  */
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.container {
+  width: 75%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner-text h1 {
+  width: 708px;
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.banner .banner-text {
+  margin-bottom: 32px;
+}
+.banner .banner-img img {
+  width: 625px;
+  height: 800px;
+  padding-top: 50px;
+}
+/* main start */
+.section-containt {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+}
+.section-heading {
+  max-width: 500px;
+  text-align: center;
+  margin: 180px auto;
+}
+
+.section-heading h2{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.section-containt .flower .flower-image{
+    background-color: #ff86a0;
+
+}
